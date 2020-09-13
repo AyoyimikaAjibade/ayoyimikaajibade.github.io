@@ -43,7 +43,7 @@
                     <p id="settings-note">*Theme settings will be saved for<br>your next visit</p>
                 </div>
 
-                <div class="right-column"">
+                <div class="right-column">
                     <div id="preview-shadow">
                         <div id="preview">
                             <div id="square-tl" class="square"></div>
@@ -51,7 +51,7 @@
                             <h3>What I Do</h3>
                             <p>I am Python Django Developer, who create value and 
                                 creatively solve problems through building of software, 
-                                loves coding and teaching others to code
+                                loves coding and teaching others to code.
                             </p>
                             <div id="square-br" class="square"></div>
                             <div id="square-bl" class="square"></div>
@@ -67,7 +67,7 @@
          <div class="about-wrapper">
              <div class="about-me">
                  <h4>More about me</h4>
-                    <p>I build projects to learn and become excellent also having fun alonside</p>
+                    <p>I build projects to learn and become excellent also having fun alongside</p>
                     <p>While i keep teaching people to code i love taking online classes, talking about python on discussion forum and participating in open source projects</p>
 
                     <div class="social-links">
@@ -82,7 +82,7 @@
                     <hr>
 
                     <h4>My Experience</h4>
-                    <p>Fullstack developer with primary focus on Django + REST framework: <a href="#" target="_blank">Download Resume</a></p>
+                    <p>Fullstack developer with primary focus on Django + REST framework: <a href="AyoyimikaAjibadeResume.pdf" target="_blank">Download Resume</a></p>
                     <p>PS: Working on AI.</p>
                 <div id="skills">
                     <ul>
@@ -121,11 +121,14 @@
             <div class="post-wrapper">
                 <div>
                     <div class="post">
-                        <img class="thumbnail" src="images/ayo.jpg" alt="">
+                        <a href="https://ayoyimika-ecommerce.herokuapp.com/">
+                        <img class="thumbnail" src="images/ecommerce.PNG" alt="">
+                        </a>
                         <div class="post-preview">
-                            <h6 class="post-title">Post Title</h6>
-                            <p class="post-intro">This is a sentence. Some More Text</p>
-                            <p><a href="project-detail.html">Read More</a></p>
+                            <h6 class="post-title">Django Ecommerce Website</h6>
+                            <p class="post-intro">An Ecommerce website with functionality like making orders,
+                                checkout, Stripe payments, trackers, refunds...</p>
+                            <p><a href="ecom-detail.html">Read More</a></p>
                         </div>
                     </div>
                 </div>
@@ -136,22 +139,26 @@
                             <img class="thumbnail" src="images/portfolio.PNG" alt="">
                         </a>
                         <div class="post-preview">
-                            <h6 class="post-title">Post Title</h6>
-                            <p class="post-intro">My very first projects built with flask 
-                                and making full advantage of precoded templates from Boostrap...
+                            <h6 class="post-title">Portfolio Website</h6>
+                            <p class="post-intro">The languages I work with include HTML, CSS and Python. I work with
+                                the Flask Framework for Python development...
                             </p>
-                            <p><a href="project-detail.html">Read More</a></p>
+                            <p><a href="portfolio-detail.html">Read More</a></p>
                         </div>
                     </div>
                 </div>
 
                 <div>
                     <div class="post">
-                        <img class="thumbnail" src="images/ayo.jpg" alt="">
+                        <a href="https://ayoyimika-movieapp.herokuapp.com/">
+                        <img class="thumbnail" src="images/movieapp.PNG" alt="">
+                        </a>
                         <div class="post-preview">
-                            <h6 class="post-title">Post Title</h6>
-                            <p class="post-intro">This is a sentence. Some More Text</p>
-                            <p><a href="project-detail.html">Read More</a></p>
+                            <h6 class="post-title">Movie App</h6>
+                            <p class="post-intro">Movie app built with full CRUD functionality and search for user to
+                                experience the making of a movie library...
+                            </p>
+                            <p><a href="movie-detail.html">Read More</a></p>
                         </div>
                     </div>
                 </div>
@@ -163,8 +170,8 @@
     <section class="s2">
         <div class="main-container">
             <h5  id="Contact" style="text-align: center;">Get In Touch via the form below or by emailing <span><a href="mailto:ajibadeayoyimika@gmail.com?subject=Important!&body=Hi."  
-                target="_blank" rel="noopener noreferrer">ajibadeayoyimika@gmail.com</a></span></h3>
-            <form action="mailto:ajibadeayoyimika@gmail.com@gmail.com" method="GET" target="_blank" id="contact-form">
+                target="_blank" rel="noopener noreferrer">ajibadeayoyimika@gmail.com</a></span></h5>
+            <form action="" method="GET" target="_blank" id="contact-form">
                 <label for="name">Name</label>
                 <input type="text" class="input-field" name="name" id="name">
 
@@ -183,6 +190,10 @@
     </section>
 
     <script type="text/javascript" src="script.js"></script>
+    <script id="urlRewriting">
+        var newUrl = "/";
+        window.history.pushState('data', 'Title', newUrl);
+    </script>
 
 </body>
 </html>
